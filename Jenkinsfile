@@ -6,5 +6,6 @@ pipeline {
                 sh "chmod +x buildstage.sh"
                 sh "docker compose up -d"
             }
+        }
     }
 }
