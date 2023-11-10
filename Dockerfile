@@ -20,5 +20,6 @@ ENV YOUR_NAME=Adam
 
 EXPOSE 5500
 
+
 ENTRYPOINT ["python", "app.py"]
 
