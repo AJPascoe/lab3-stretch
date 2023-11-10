@@ -1,6 +1,9 @@
 pipeline {
     agent {
-        label "worker"
+        label "agent"
+    }
+    triggers {
+        when (env.BRANCH_NAME == 'main')
     }
     stages {
          stage('Init') {
